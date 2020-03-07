@@ -6,7 +6,7 @@ It's repo with files for GL DevOps ProCamp Entry task
 
 
 # Files
-[`metrics`](https://github.com/YuriiKazabekov/metrics_gl/blob/master/metrics) - it's python script which prints basic information about your OS to console. Metrics based on [`psutil`](https://psutil.readthedocs.io/en/latest/) library (python system and process utilities) is a cross-platform library for retrieving information on running processes and system utilization (CPU, memory, disks, network, sensors) in Python. It is useful mainly for system monitoring, profiling, limiting process resources and the management of running processes. It implements many functionalities offered by UNIX command line tools such as: ps, top, lsof, netstat, ifconfig, who, df, kill, free, nice, ionice, iostat, iotop, uptime, pidof, tty, taskset, pmap. psutil currently supports the following platforms:
+[`metrics`](https://github.com/YuriiKazabekov/metrics_gl/blob/master/metrics) - it's Python (ver 3.7) script which prints basic information about your OS to console. Metrics based on [`psutil`](https://psutil.readthedocs.io/en/latest/) library (python system and process utilities) is a cross-platform library for retrieving information on running processes and system utilization (CPU, memory, disks, network, sensors) in Python. It is useful mainly for system monitoring, profiling, limiting process resources and the management of running processes. It implements many functionalities offered by UNIX command line tools such as: ps, top, lsof, netstat, ifconfig, who, df, kill, free, nice, ionice, iostat, iotop, uptime, pidof, tty, taskset, pmap. psutil currently supports the following platforms:
 - Linux
 - Windows
 - macOS
