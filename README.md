@@ -1,5 +1,5 @@
- <h1 align="center"> metrics
- </1>
+ <h1 align="center"> METRICS
+ </h1>
 
 It's repo with files for GL DevOps ProCamp Entry task
 
