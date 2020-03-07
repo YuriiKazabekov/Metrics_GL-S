@@ -2,9 +2,7 @@
  </1>
 
 It's repo with files for GL DevOps ProCamp Entry task
-<h4 align="center">
-  <img alt="common readme" src="common-readme.png">
-</h4>
+
 
 
 # Files
