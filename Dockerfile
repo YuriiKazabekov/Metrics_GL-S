@@ -6,15 +6,18 @@
 
 FROM ubuntu:bionic
 
-RUN apt-get -y update
-RUN apt-get -y install python3
-RUN apt-get -y install gcc python3-dev
-RUN apt-get -y install python3-pip
+# Update system packages and install python
+RUN apt-get -y update && apt-get -y install python3 gcc python3-dev python3-pip
+
+# Install psutils
 RUN pip3 install psutil
-RUN apt-get -y install nano
-RUN mkdir /etc/myscripts
-COPY metrics /etc/myscripts
-RUN chmod 744 /etc/myscripts/metrics
 
+# Copy script to container
+COPY ./metrics /usr/local/bin
 
+# Allow it to execute
+RUN chmod 744 /usr/local/bin/metrics
+
+# Start the script with args
+ENTRYPOINT ["metrics"]
 
